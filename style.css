@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body {
+  font: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, #ff0000, #ffff00); /* Standard syntax */
+}
+
+h1 {
+  font: 600 3.2em 'Ultra', serif;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+h2 {
+  font-family: 'Ultra', serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+  font-family: 'Ultra', serif;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+.titels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ColorPicker1,
+.ColorPicker2 {
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: normal;
+  font-weight: 900;
+  color: black;
+}
+
+.ColorPicker2 {
+  margin-left: 3em;
+}
+
+.input2 {
+  margin-left: 10em;
+}
+
+#btn {
+  border: 8px solid rgba(255, 255, 255, 0.849);
+  border-radius: 30px;
+  padding: 1em 1em;
+  color: rgba(7, 5, 5, 0.945);
+  font-size: 18px;
+  font-family: 'Press Start 2P', cursive;
+}
