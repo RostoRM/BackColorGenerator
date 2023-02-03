@@ -1,9 +1,9 @@
 //Cash DOM
-const css = document.querySelector("h3");
-const input_Color1 = document.querySelector(".input1");
-const input_Color2 = document.querySelector(".input2");
-const body = document.getElementById("gradient");
-const btn = document.getElementById("btn");
+const css = document.querySelector('h3');
+const input_Color1 = document.querySelector('.input1');
+const input_Color2 = document.querySelector('.input2');
+const body = document.getElementById('gradient');
+const btn = document.getElementById('btn');
 
 //rendomNumber generator
 const random = () => {
@@ -30,9 +30,19 @@ const setGradient = () => {
 window.onload = setGradient();
 //execution main function
 const main = () => {
-  input_Color1.addEventListener("input", setGradient);
-  input_Color2.addEventListener("input", setGradient);
-  btn.addEventListener("click", showRendomColor);
+  input_Color1.addEventListener('input', setGradient);
+  input_Color2.addEventListener('input', setGradient);
+  btn.addEventListener('click', showRendomColor);
 };
 
 main();
+
+// random color function , Second Option Hex Color
+// const randomColor = () => {
+//   let letters = '0123456789ABCDEF';
+//   let color = '#';
+//   for (let i = 0; i < 6; i++) {
+//     color += letters[Math.floor(Math.random() * 16)];
+//   }
+//   return color;
+// };
